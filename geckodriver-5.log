@@ -1,0 +1,14 @@
+1654594185165	geckodriver	INFO	Listening on 127.0.0.1:60185
+1654594188220	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "60186" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\sugih\\AppData\\Local\\Temp\\rust_mozprofilekFJIgO"
+1654594188619	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:60186
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\sugih\\AppData\\Local\\Temp\\rust_mozprofilekFJIgO\\search.json.mozlz4", (void 0)))
+1654594190738	Marionette	INFO	Listening on port 60205
+Read port: 60205
+DevTools listening on ws://localhost:60186/devtools/browser/e28aab84-2af1-49f0-9f87-983cc850a6b5
+1654594190772	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://10.251.4.67:8000"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://10.251.4.67:8000"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1654594274499	Marionette	INFO	Stopped listening on port 60205
